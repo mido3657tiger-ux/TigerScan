@@ -1,107 +1,46 @@
-# 🐯 TigerScan
+# 🐯 TigerScan: Enterprise Offensive Recon Framework
 
 <div align="center">
 
+![Status](https://img.shields.io/badge/STATUS-ACTIVE-brightgreen?style=for-the-badge)
+![Python](https://img.shields.io/badge/PYTHON-3.x-blue?style=for-the-badge)
+![Platform](https://img.shields.io/badge/PLATFORM-LINUX|ANDROID-black?style=for-the-badge)
+![License](https://img.shields.io/badge/LICENSE-MIT-yellow?style=for-the-badge)
 
-
-![TigerScan](https://img.shields.io/badge/TigerScan-v1.0-orange?style=for-the-badge)
-
-
-
-
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge)
-
-
-
-
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-
-
-
-
-![Platform](https://img.shields.io/badge/Platform-Linux%20|%20Android-red?style=for-the-badge)
-
-
-
-**Advanced Bug Bounty Recon Tool**
-
-*Built by hunters, for hunters* 🎯
+**The Ultimate Bug Bounty & Offensive Security Powerhouse**
 
 </div>
 
 ---
 
-## 🌟 Why TigerScan?
+## 📋 Framework Overview
+**TigerScan** is a professional-grade reconnaissance and offensive framework. Designed for security researchers who demand high-speed asset discovery, vulnerability exploitation, and automated reporting.
 
-> TigerScan is a complete recon framework built for serious bug bounty hunters who want results fast.
+## 🛠 Advanced Modules
+| Category | Capabilities |
+| :--- | :--- |
+| **Reconnaissance** | 2000+ Subdomains, Directory Bruteforce, Tech Stack Fingerprinting |
+| **Vulnerability Scanning** | SQLi, XSS, SSRF, Open Redirect, Misconfigurations |
+| **Exploitation** | Automated Payload Injection, WAF Bypass, Exploit Payloads |
+| **Social Engineering** | Phishing Templates, Credential Harvesting, Automated OSINT |
+| **Data Intelligence** | SQLite Persistent Storage, Automated Professional PDF/HTML Reports |
 
-- ✅ Works on Android Termux and Linux
-- ✅ No complex setup
-- ✅ Finds real vulnerabilities
-- ✅ Auto-generates reports
-- ✅ Built by a real bug bounty hunter
-
----
-
-## ⚡ Features
-
-| Feature | Description |
-|---------|-------------|
-| 🔍 Subdomain Enumeration | Find 2000+ subdomains automatically |
-| 🎯 Open Redirect Detection | Smart vulnerability scanner |
-| 📊 HTTP Status Scanner | Multi-threaded fast scanning |
-| 💾 Database Storage | SQLite auto-save results |
-| 📝 Auto Reports | Generate professional reports |
-
----
-
-## 📊 Real Results
-
-| Target | Subdomains Found | Findings |
-|--------|-----------------|----------|
-| starbucks.com | 2281 | 28 |
-| meesho.com | 195 | Scanned |
-
----
-
-## 🚀 Installation
-
+## 🚀 Quick Setup (Termux / Linux)
 ```bash
-git clone https://github.com/mido3657tiger-ux/TigerScan
+git clone [https://github.com/mido3657tiger-ux/TigerScan](https://github.com/mido3657tiger-ux/TigerScan)
 cd TigerScan
-pip install requests
-```
+pip install -r requirements.txt
+chmod +x *
+⚡ Execution Command
+​Initialize Enterprise Engine:python3 main.py --target example.com
+Run Targeted Offensive Modules:# Vulnerability Scan
+python3 hunt.py --scan full --target example.com
 
----
-
-## 🎯 Usage
-
-```bash
-python3 hunt.py target.com
-python3 tiger_core.py
-```
-
----
-
-## 🛠️ Tools Inside
-
-- **hunt.py** - Subdomain + Open Redirect scanner
-- **tiger_core.py** - HTTP multi-threaded scanner
-
----
-
-## 👤 Author
-
-**Tiger-X-Cyber** | Professional Bug Bounty Hunter
-
-[
-
-![HackerOne](https://img.shields.io/badge/HackerOne-tiger__scan__x-red?style=for-the-badge)
-
-](https://hackerone.com/tiger_scan_x)
-
----
-
-## ⚠️ Disclaimer
-
-For educational purposes and authorized testing only.
+# Exploitation Module
+python3 tiger_core.py --exploit --module <module_name>
+🛡️ Ethics & Compliance
+​This framework is developed for educational and authorized security testing purposes only. The user assumes full responsibility for all activities conducted with this tool.
+​👤 Author
+​Tiger-X-Cyber | Professional Security Researcher
+HackerOne Profile
+​Built for Hunters, By Hunters. Stay Sharp, Stay Secure. 🎯
